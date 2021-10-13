@@ -1,7 +1,6 @@
 /* FONTS {
     font-family: font-family: 'Montserrat', sans-serif;;
 } */
-
 *{
     padding: 0;
     margin: 0;
@@ -9,7 +8,7 @@
 }
 body {
     background-color: #F7F7F7;
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     width: 100%;
     color: #7A7A7A;
     background-image: url("../img/dot-grid.png");
@@ -17,7 +16,6 @@ body {
 }
     /* NAVIGATION */
 a.logo {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     color: #2E16D8;
     font-size: 1.6rem;
@@ -39,78 +37,132 @@ div.main-nav {
     font-weight: 100;
     display: flex;
 }
-
 a.menuLinkItem {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding: 15px 0;
     font-size: 1.25rem;
     text-decoration: none;
     color: #7A7A7A;
 }
-
 a.menuLinkItem:hover {
     color: #2E16D8;
-
 }
-
 div.main-nav > a {
     margin-left: 30px;
 }
 
-/* CONTENT HOME */
-
+/* CONTENT HOME MOBILE*/
 div.container-home {
     padding-top: 40px;
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 /* LEFT COLUMN */
-
 div.pic-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
 }
-
 img.avatar-git {
     width: 250px;
     height: 250px;
     border-radius: 10rem;
     filter: grayscale(1);
 }
-
 img.avatar-git:hover {
     filter: grayscale(0);
 }
-
 a img.link-icons {
     margin-top: 10px;
     width: 20px;
     filter: invert(57%) sepia(4%) saturate(11%) hue-rotate(10deg) brightness(82%) contrast(82%);
     margin-left: 10px;
 }
-
 a img.link-icons:hover {
     filter: invert(12%) sepia(100%) saturate(7478%) hue-rotate(254deg) brightness(82%) contrast(108%);
 }
-
-div.introduction {
-    font-family:'Montserrat', sans-serif;
-}
+/* MIDDLE COLUMN */
 
 h1.title {
     color: #2E16D8;
     font-size: 3.5rem;
     padding: 6px 0;
+    text-align: center;
 }
-
 div.introduction > p {
+    text-align: center;
     font-size: 1.3rem;
 }
 
+/* ABOUT PAGE MOBILE */
+
+.about-main-content{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.about-left-column {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.about-left-column h1{
+    color: #2E16D8;
+    font-size: 2rem;
+}
+
+div.about-left-column p{
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+/* MAP COLUMN */
+div.about-btns {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+.about-btn-prev, 
+.about-btn-next {
+    width: 90px;
+    padding: 10px 5px;
+    border: 2px solid #2E16D8;
+    background-color: white;
+    font-family: 'Montserrat';
+    color: #2E16D8;
+    font-weight: 600;
+}
+
+.about-btn-prev:hover, 
+.about-btn-next:hover {
+    color: white;
+    background-color: #2E16D8;
+    cursor: pointer;
+}
+
+
+.about-btn-prev{
+    margin-right: 10px;
+}
+
+.about-btn-next{
+    margin-left: 10px;
+}
+
+div.about-right-column iframe{
+    max-width: 100%;
+}
 
 
 @media only screen and (min-width: 480px) {
@@ -122,28 +174,57 @@ div.introduction > p {
         justify-content: space-between;
         align-items: baseline;
     }
-
+    /* HOME */
     div.container-home {
         padding-top: 53px;
         width: 80%;
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-
-
+    /* LEFT COLUMN */
     .pic-links {
         width: 30%;
     }
-
+    /* MIDDLE COLUMN */
     .introduction{
         width: 30%;
     }
-
+    div.introduction > p {
+        text-align: left;
+    }
+    h1.title{
+        text-align: left;
+    }
+    /* RIGTH COLUMN */
     div.video{
         width: 30%;
     }
+
+    div.video video {
+        max-width: 100%;
+    }
+
+    /* ABOUT PAGE */
+    .about-main-content{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div.about-left-column {
+        width: 35%;
+    }
+
+    div.about-right-column{
+        width: 55%;
+    }
+
+
 
   
 
