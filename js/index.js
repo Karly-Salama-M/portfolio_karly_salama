@@ -33,6 +33,22 @@ function setMap(){
 let dateField = document.querySelector('#dateField');
 dateField.min = new Date().toISOString().split("T")[0];
 
+let contactSbmtBtn = document.querySelector('#submitBtn');
+let inputText = document.querySelectorAll('[type="text"]');
+let textArea = document.querySelector('#subject');
+
+
+
+function validation(){
+
+	if(inputText.value){
+		contactSbmtBtn.classList.remove("contact-btn-disabled");
+		contactSbmtBtn.classList.add("contact-btn-enabled");
+		console.log("theres value");
+	} else {
+		contactSbmtBtn.classList.add("contact-btn-disabled")
+	}
+}
 
 
 

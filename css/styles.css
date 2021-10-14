@@ -145,6 +145,17 @@ button.contact-btn-disabled{
     cursor: pointer;
 }
 
+button.contact-btn-enabled{
+    width: 90px;
+    padding: 10px 5px;
+    border: 2px solid #2E16D8;
+    background-color: white;
+    font-family: 'Montserrat';
+    color: #2E16D8;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 .about-btn-prev:hover, 
 .about-btn-next:hover
 {
