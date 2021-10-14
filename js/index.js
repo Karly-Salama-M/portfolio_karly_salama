@@ -28,6 +28,13 @@ function setMap(){
 
 
 
+// CONTACT
+
+let dateField = document.querySelector('#dateField');
+dateField.min = new Date().toISOString().split("T")[0];
+
+
+
 
 
 
