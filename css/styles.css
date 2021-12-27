@@ -59,7 +59,7 @@ div.container-home {
     align-items: center;
 }
 /* LEFT COLUMN */
-div.pic-links {
+div.profile-links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,6 +202,11 @@ input[type=text], input[type=email], select, textarea {
   }
 
  
+  /* DESKTOP STYLES */
+  /* DESKTOP STYLES */
+  /* DESKTOP STYLES */
+  /* DESKTOP STYLES */
+
 
 @media only screen and (min-width: 480px) {
 
@@ -216,19 +221,10 @@ input[type=text], input[type=email], select, textarea {
     div.container-home {
         padding-top: 53px;
         width: 80%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
     }
-    /* LEFT COLUMN */
-    .pic-links {
-        width: 30%;
-    }
-    /* MIDDLE COLUMN */
+    /* INTRO */
     .introduction{
-        width: 30%;
+        display: block;
     }
     div.introduction > p {
         text-align: left;
@@ -236,13 +232,9 @@ input[type=text], input[type=email], select, textarea {
     h1.title{
         text-align: left;
     }
-    /* RIGTH COLUMN */
-    div.video{
-        width: 30%;
-    }
-
-    div.video video {
-        max-width: 100%;
+ 
+    .profile-links {
+        display: block;
     }
 
     /* ABOUT PAGE */
