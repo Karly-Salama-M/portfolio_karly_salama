@@ -74,12 +74,16 @@ div.introduction > p:last-child {
     line-height: 2.625rem;
 }
 
+.social-links {
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 a img.link-icons {
     margin-top: 10px;
     height: 35px;
     fill: black;
-    margin: 2.625rem 2.625rem 2.625rem 0 ;
+    margin: 2.625rem 2.625rem 2.625rem 0;
 }
 a img.link-icons:hover {
     filter: invert(12%) sepia(100%) saturate(7478%) hue-rotate(254deg) brightness(82%) contrast(108%);
@@ -217,7 +221,7 @@ input[type=text], input[type=email], select, textarea {
   /* DESKTOP STYLES */
 
 
-@media only screen and (min-width: 460px) {
+@media only screen and (min-width: 480px) {
 
     /* NAVIGATION */
     header {
