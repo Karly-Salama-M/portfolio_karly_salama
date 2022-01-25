@@ -6,6 +6,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: #F7F7F7;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -17,7 +21,7 @@ body {
 a.logo {
     font-weight: 800;
     color: #4f24ea;
-    font-size: 1.6rem;
+    font-size: 3rem;
     margin-bottom: 10px;
     text-decoration: none;
 }
@@ -38,7 +42,6 @@ a.menuLinkItem {
     font-weight: 400;
     padding: 15px 0;
     font-size: 1.25rem;
-    text-decoration: none;
     color: #7A7A7A;
 }
 a.menuLinkItem:hover {
@@ -48,19 +51,16 @@ div.main-nav > a {
     margin-left: 30px;
 }
 
-/* CONTENT HOME MOBILE*/
+/* CONTENT HOME*/
 div.container-home {
     padding-top: 40px;
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 /* INTRO HOME TEXT */
-div.introduction {
-    text-align: left;
-}
 h1.intro-title {
     color: #4f24ea;
     font-size: 3.5rem;
@@ -71,25 +71,33 @@ div.introduction > p:first-child{
 }
 div.introduction > p:last-child {
     font-size: 1.75rem;
-    line-height: 2.6rem;
+    line-height: 2.625rem;
 }
 
-
-div.profile-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-}
 
 a img.link-icons {
     margin-top: 10px;
     height: 35px;
-    filter: invert(57%) sepia(4%) saturate(11%) hue-rotate(10deg) brightness(82%) contrast(82%);
-    margin-left: 10px;
+    fill: black;
+    margin: 2.625rem 2.625rem 2.625rem 0 ;
 }
 a img.link-icons:hover {
     filter: invert(12%) sepia(100%) saturate(7478%) hue-rotate(254deg) brightness(82%) contrast(108%);
+}
+
+a.btn {
+    font-size: 1.125rem;
+    color: #4f24ea;
+    font-weight: bold;
+    border: 5px solid #4f24ea;
+    padding: 15px;
+    margin-bottom: 3rem;
+    border-radius: 3.5rem;
+}
+
+a.btn:hover {
+    color: white;
+    background-color: #4f24ea;
 }
 
 
@@ -233,7 +241,7 @@ input[type=text], input[type=email], select, textarea {
         text-align: left;
     }
  
-    .profile-links {
+    .social-links {
         display: block;
     }
 
