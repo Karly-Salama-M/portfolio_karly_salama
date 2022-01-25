@@ -88,6 +88,7 @@ a img.link-icons:hover {
 a.btn {
     font-size: 1.125rem;
     color: #4f24ea;
+    background-color: white;
     font-weight: bold;
     border: 5px solid #4f24ea;
     padding: 15px;
@@ -216,7 +217,7 @@ input[type=text], input[type=email], select, textarea {
   /* DESKTOP STYLES */
 
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 460px) {
 
     /* NAVIGATION */
     header {
