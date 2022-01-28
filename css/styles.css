@@ -31,6 +31,7 @@ header {
     background-color: white;
     filter: drop-shadow(0 0.2mm 0.8mm #c4c4c4);
 }
+
 nav.main-nav {
     min-height: 8vh;
     width: 80%;
@@ -64,12 +65,11 @@ nav.main-nav {
     text-align: end;
 }
 
+
 .nav-links > li {
     margin: 0 auto;
     width: 80%;
-    padding: 20px 0;
-    font-size: 1.5rem;
-    font-weight: 800;
+    padding: 20px;
 }
 
 .menu-item {
