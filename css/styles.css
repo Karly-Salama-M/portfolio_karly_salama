@@ -22,24 +22,24 @@ body {
 div.logo {
     font-weight: 800;
     color: #4f24ea;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
-/* header {
-    padding-top: 3rem;
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    filter: drop-shadow(0 0.2mm 0.8mm #c4c4c4);
+}
+
+nav.main-nav {
+    min-height: 8vh;
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-} */
-
-nav {
-    display: flex;
-    justify-content: space-around;
+    justify-items: baseline;
     align-items: center;
-    min-height: 8vh;
-    background-color: burlywood;
 }
 .hamburger {
     display: block;
@@ -58,14 +58,17 @@ nav {
     height: 92vh;
     top: 8vh;
     background-color: #4f24ea;
+    visibility: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    transform: translateX(100%);
+    justify-content: space-evenly;
+    text-align: end;
 }
 
+
 .nav-links > li {
-    opacity: 100;
+    margin: 0 auto;
+    width: 80%;
     padding: 20px;
 }
 
@@ -286,7 +289,6 @@ input[type=text], input[type=email], select, textarea {
     }
 
     .nav-links {
-        
         display: flex;
         width: 30%;
         justify-content: space-around;

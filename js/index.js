@@ -26,8 +26,29 @@ function setMap(){
 	return  iframe.setAttribute('src', cities[i]);
 }
 
+const navAppear = () => {
+	const hamburger = document.querySelector('.hamburger');
+	const nav = document.querySelector('.nav-links');
 
+	hamburger.addEventListener('click', () => {
+		if(nav.style.visibility === 'hidden') {
+			nav.style.visibility = 'visible';
+		} else {
+			nav.style.visibility = 'hidden';
+		}
+		
+	})
+}
 
+navAppear();
+
+// IF I HAVE MULTIPLE FUNCTIONS I'LL PUT THEM INSIDE A FUNCTION APP AND THEN JUST CALL THE FUNCTION EXAMPLE: 
+
+// const app = () => {
+// 	navAppear();
+// 	buttonSomething(); 
+// 	thisDoSomething();
+// }
 
 
 
