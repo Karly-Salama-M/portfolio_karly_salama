@@ -14,16 +14,32 @@
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo">KS</a>
-        <div>
-
-            <div id="mainNavLinks" class="main-nav">
-                <a class="menuLinkItem" href="#">Work</a>
-                <a class="menuLinkItem" href="./html/about.html">About</a>
-                <a class="menuLinkItem" href="./html/contact.html">Contact</a>
+        <nav id="mainNavLinks" class="main-nav">
+            <div class="logo">
+                <h3>KS</h3>
             </div>
-        </div>
+            <ul class="nav-links">
+                <li>
+                    <a class="menu-item" href="#code">Code</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#design">Design</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
     </header>
+
     <div class="container-home">
         <div class="introduction">
             <p>Hello there!</p>
@@ -39,7 +55,11 @@
         </div>
         <a href="" class="btn">Contact me!</a>
     </div>
-
+    <section id="code"></section>
+    <section id="design"></section>
+    <section id="about"></section>
+    <section id="contact"></section>
+   
     <script src="./js/index.js"></script>
 </body>
 </html>
