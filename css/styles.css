@@ -114,7 +114,6 @@ div.introduction > p:last-child {
     font-size: 1.75rem;
     line-height: 2.625rem;
 }
-
 div.social-links a {
     margin: 1.625rem 2.625rem 1.625rem 0;
 }
@@ -127,7 +126,6 @@ a img.link-icons {
     margin-top: 10px;
     height: 35px;
     fill: black;
-    /* margin: 2.625rem 2.625rem 2.625rem 0; */
 }
 a img.link-icons:hover {
     filter: invert(12%) sepia(100%) saturate(7478%) hue-rotate(254deg) brightness(82%) contrast(108%);
@@ -148,10 +146,38 @@ a.btn:hover {
     background-color: #4f24ea;
     transition: color 0.2s ease-in 0.1s ;
 }
-
 section {
     width: 100%;
 }
+h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 1.125rem;
+    line-height: 25px;
+}
+div.card {
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    margin-top: 20px;
+    display: flex;
+    font-size: 0.85rem;
+}
+h4 {
+    font-size: 0.85rem;
+}
+div.card-info {
+    width: 70%;
+}
+div.card-info p {
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+}
+
 
 
 
