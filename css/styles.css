@@ -30,15 +30,13 @@ div.container {
 }
 
 /* NAVIGATION */
-div.logo {
+div.logo h3{
     font-weight: 800;
     color: #4f24ea;
-    font-size: 1.5rem;
     text-decoration: none;
+    font-size: 1.8rem;
+    margin: 0;
 }
-
-/* NO OLVIDAR STICKY HEADER https://www.w3schools.com/howto/howto_js_sticky_header.asp */
-
 header {
     position: fixed;
     width: 100%;
@@ -159,27 +157,50 @@ p {
     line-height: 25px;
 }
 div.card {
+    font-size: 0.85rem;
     padding: 20px;
     background-color: white;
     border: 2px solid black;
     border-radius: 0.3rem;
     margin-top: 20px;
     display: flex;
-    font-size: 0.85rem;
+    justify-content: space-between;
 }
 h4 {
     font-size: 0.85rem;
 }
 div.card-info {
-    width: 70%;
+    width: 65%;
 }
 div.card-info p {
     font-size: 0.85rem;
     line-height: 1.1rem;
+    padding: 15px 0;
+}
+div.card-tags span {
+    padding: 3px 8px;
+    color: #4f24ea;
+    background-color: #eaeaea;
+    font-size: 0.7rem;
+    border-radius: 2.5rem;
+    margin-right: 5px;
 }
 
+div.card-image {
+    background-color: grey;
+    height: auto;
+    width: 30%;
+}
 
+a.rgl-links {
+    font-weight: 600;
+    color: #4f24ea;
+}
 
+div.git-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
 
 
 
