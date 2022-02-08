@@ -231,6 +231,10 @@ a.lnk-learn-more {
 
 @media only screen and (min-width: 600px) {
 
+    div.container-home {
+        margin-top: 150px;
+    }
+
     .hamburger {
         display: none;
     }
@@ -323,21 +327,12 @@ a.lnk-learn-more {
         cursor: pointer;
         color: #2E16D8;
     }
+    div.card-dsgn img {
+        height: 400px;
+    }
     div.card-dsgn-info {
         padding: 15px 10px;
     }
-
-    
-
-    
-
-
-
-
-  
-
-
-
 
 
 

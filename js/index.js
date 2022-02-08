@@ -44,6 +44,12 @@ navAppear();
 
 
 
+const openProjectDetail = () => {
+	window.location.replace("../html/project-detail.html");
+}
+
+
+
 
 // IF I HAVE MULTIPLE FUNCTIONS I'LL PUT THEM INSIDE A FUNCTION APP AND THEN JUST CALL THE FUNCTION EXAMPLE: 
 
