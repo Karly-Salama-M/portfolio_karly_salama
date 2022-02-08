@@ -44,9 +44,9 @@ navAppear();
 
 
 
-const openProjectDetail = () => {
-	window.location.replace("../html/project-detail.html");
-}
+// const openProjectDetail = () => {
+// 	window.location.replace("../html/project-detail.html");
+// }
 
 
 
