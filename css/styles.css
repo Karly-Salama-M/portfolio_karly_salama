@@ -156,6 +156,23 @@ p {
     line-height: 25px;
 }
 
+/* ABOUT SECTION - ABOUT SECTION - ABOUT SECTION */
+
+div.abt-img {
+    width: 60%;
+    height: 250px;
+    background-color: gray;
+    margin: 30px auto;
+    
+}
+
+div.abt-content p {
+    margin-top: 20px;
+}
+
+
+
+
 /* CODE SECTION - CODE SECTION - CODE SECTION */
 div.card {
     font-size: 0.85rem;
@@ -276,6 +293,23 @@ a.lnk-learn-more {
     }
     .social-links {
         display: block;
+    }
+
+    /* ABOUT SECTION - ABOUT SECTION - ABOUT SECTION */
+
+    div.abt-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    div.abt-img {
+        width: 35%;
+        margin-right: 0;
+    }
+
+    div.abt-content {
+        width: 55%;
     }
 
     /* CODE SECTION - CODE SECTION - CODE SECTION */
