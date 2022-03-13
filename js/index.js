@@ -51,6 +51,8 @@ const openProjectDetail = () => {
 
 
 
+
+
 // IF I HAVE MULTIPLE FUNCTIONS I'LL PUT THEM INSIDE A FUNCTION APP AND THEN JUST CALL THE FUNCTION EXAMPLE: 
 
 // const app = () => {
